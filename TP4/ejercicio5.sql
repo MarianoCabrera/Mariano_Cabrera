@@ -1,0 +1,26 @@
+-- a) select apellido from empleados;
+-- b) select distinct apellido from empleados;
+-- c) select * from empleados;
+-- d) select nombre, apellido from empleados;
+-- e) select cuil_cuit from empleados;
+-- f) select concat_ws(' ', nombre, apellido) as personas from empleados;
+-- g) select concat_ws(' ', upper(nombre), upper(apellido)) from empleados;
+-- h) select concat_ws(' ', LOWER(nombre), LOWER(apellido)) from empleados;
+-- i) select nombre, presupuesto as valor_actual from departamentos order by presupuesto asc;
+-- j) select nombre from departamentos order by nombre asc;
+-- k) select nombre from departamentos order by nombre desc;
+-- l) select concat_ws('  ', nombre, apellido) as personas from empleados order by nombre, apellido ;
+-- m) 
+-- n) 
+-- o)
+-- p)
+-- q)
+-- r)
+-- s) select empleados.nombre as nombres, empleados.apellido as apellidos, departamentos.nombre as nombre_dep from empleados inner join departamentos on empleados.departamento = departamentos.departamento_id;
+-- t)
+-- u)
+-- v) select departamentos.nombre from empleados inner join departamentos on empleados.departamento = departamentos.departamento_id and empleados.cuil_cuit = "27-38382980-3";
+-- w) select departamentos.nombre from empleados inner join departamentos on empleados.departamento = departamentos.departamento_id and empleados.cuil_cuit = "24-71651431-3";
+-- x) select empleados.* from empleados inner join departamentos on empleados.departamento = departamentos.departamento_id and departamentos.nombre = "I+D" order by empleados.nombre, apellido;
+-- y) select empleados.* from empleados inner join departamentos on empleados.departamento = departamentos.departamento_id and departamentos.nombre = "Sistemas, I+D" 
+-- z)
