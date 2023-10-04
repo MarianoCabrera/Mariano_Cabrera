@@ -7,5 +7,5 @@
 - Autor: Mariano Tobias Cabrera Zembrunski
 
 - Descripción: este repositorio fue creado con fines académicos. Contiene los ejercicios
-resueltos del Módulo 1.
+resueltos.
 >Encabezado: Silicon Misiones https://siliconmisiones.gob.ar/ 
